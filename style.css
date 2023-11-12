@@ -7,39 +7,66 @@ body{
     color: #693423;
     text-align: center;
     font-size: 100px;
-    font-family: Caveat;
+    font-family: cmmi10;
     margin: 1px;
     grid-row: 1 / 2;
     grid-column: 1 / 5;
 }
 .top{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20vh 40vh;
     grid-row: 1 / 2;
     grid-column: 1 / 5;
+    margin: 10px;
 }
 .Vänstertopnav{
+    font-family: Inter;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 18vh;
     grid-row: 1 / 2;
     grid-column: 3 / 5;
+    text-align: center;
 }
 .Bakgrund{
+    font-family: Judson;
+    font-size: 35px;
     grid-row: 2 / 3;
     grid-column: 1 / 5;
     background-color: #D9D9D9;
+    padding: 20px;
 }
 .Timer{
     grid-row: 1 / 2;
     grid-column: 1 / 2;
 }
+.Timertext{
+    margin: 0px;
+}
 .Ingredienser{
     grid-row: 1 / 2;
     grid-column: 2 / 3;
 }
+.Ingrediensertextnav{
+    margin: 0px;
+}
 .svårhetsgrad{
     grid-row: 1 / 2;
     grid-column: 3 / 4;
+}
+.svårhetsgradtext{
+    margin: 0px;
+}
+#topbild{
+    height: 60px;
+    width: 60px;
+}
+.Mittenvänster{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+}
+.Ingrediensertext{
+    background-color: #D9D9D9;
 }
